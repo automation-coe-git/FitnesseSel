@@ -1,0 +1,19 @@
+!path D:\rcworksp\SeleniumFitnesse\bin
+!path D:\jars\commons-io-2.8.0.jar
+!path D:\jars\fitnesse-standalone.jar
+!path D:\jars\jcommander-1.64.jar
+!path D:\jars\selenium-server-standalone-3.141.59.jar
+!path D:\jars\snakeyaml-1.17.jar
+!path D:\jars\testng-6.11.jar
+
+
+
+
+
+|Import    |
+|zephyrdemo|
+
+
+|TestNGSeleniumSimpleSearchExample                                                                                                                     |
+|urlGiven                                                                       |username|password|loginApp()   |Logout()      |closeBrowser()         |
+|http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx|Tester  |test    |Login|Logout-success|closing Browser-success|
