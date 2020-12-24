@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="zephyrdemo.TestNGSeleniumSimpleSearchExample"/>
+      <class name="fitnesse.SampleFitnesseUsecase.java"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

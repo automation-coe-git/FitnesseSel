@@ -1,4 +1,4 @@
-package zephyrdemo;
+package fitnesse;
 
 import java.util.concurrent.TimeUnit;
 
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import fit.ColumnFixture;
 
-public class TestNGSeleniumSimpleSearchExample extends ColumnFixture {
+public class SampleFitnesseUsecase extends ColumnFixture {
 	WebDriver driver;
 	String urlGiven;
 	String username;
