@@ -1,4 +1,4 @@
-!path D:\rcworksp\SeleniumFitnesse\bin
+!path C:\Users\91734\git\FitnesseSel\SeleniumFitnesse\bin\
 !path D:\jars\commons-io-2.8.0.jar
 !path D:\jars\fitnesse-standalone.jar
 !path D:\jars\jcommander-1.64.jar
@@ -11,9 +11,9 @@
 
 
 |Import    |
-|zephyrdemo|
+|fitnesse|
 
 
-|TestNGSeleniumSimpleSearchExample                                                                                                                     |
+|SampleFitnesseUsecase                                                                                                                     |
 |urlGiven                                                                       |username|password|loginApp()   |Logout()      |closeBrowser()         |
 |http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx|Tester  |test    |Login|Logout-success|closing Browser-success|
