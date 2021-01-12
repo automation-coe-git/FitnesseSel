@@ -25,7 +25,7 @@ public class SampleFitnesseUsecase extends ColumnFixture {
 
 		chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
 		System.setProperty("webdriver.chrome.driver",
-				"D:\\rcworksp\\SeleniumFitnesse\\BrowserDrivers\\chromedriver 86.exe");
+				"C:\\Users\\91734\\git\\FitnesseSel\\SeleniumFitnesse\\BrowserDrivers\\chromedriver 86.exe");
 		driver = new ChromeDriver(chromeOptions);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
@@ -52,10 +52,10 @@ public class SampleFitnesseUsecase extends ColumnFixture {
 		return "closing Browser-success";
 	}
 
-	/*
-	 * public static void main(String args[]) throws Exception {
-	 * TestNGSeleniumSimpleSearchExample var = new
-	 * TestNGSeleniumSimpleSearchExample(); var.openApp(); }
-	 */
+	
+	 public static void main(String args[]) throws Exception {
+		 SampleFitnesseUsecase var = new
+				 SampleFitnesseUsecase(); var.loginApp(); }
+	 
 
 }

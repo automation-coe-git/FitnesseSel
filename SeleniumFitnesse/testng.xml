@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="fitnesse.SampleFitnesseUsecase.java"/>
+      <class name="fitnesse.SampleFitnesseUsecase"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
